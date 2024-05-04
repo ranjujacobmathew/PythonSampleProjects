@@ -1,4 +1,4 @@
- import pandas as pd
+import pandas as pd
 data=pd.read_csv("/content/comprehensive_mutual_funds_data.csv")
 df=pd.DataFrame(data)
 print(df)
